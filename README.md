@@ -1,6 +1,6 @@
 ## How I worked on this project
 
-My goal was to build an online marketplace for used items. This would include a single-page web application and a mobile application for iOS and Android platforms.
+My goal was to build an online marketplace for used items. This would include mobile applications for iOS and Android platforms.
 
 - I React Native for this mobile app.
 - And I used Node.js, Express.js and MongoDB for the backend of the marketplace
@@ -9,16 +9,13 @@ My goal was to build an online marketplace for used items. This would include a 
 
 ### Frontend
 
-- Navigation: [Click here]()
-- Some stateful logic: [Click here]()
-- Example CSS: [Click here]()
-- Product component: [Click here]()
+- Navigation: [Click here](https://github.com/Lambertyubin/marketplace_mobile_app/blob/main/app/navigation/AppNavigator.js#L21)
+- Some stateful logic: [Click here](https://github.com/Lambertyubin/marketplace_mobile_app/blob/main/app/screens/ListingEditScreen.js#L36)
+- Styling: [Click here](https://github.com/Lambertyubin/marketplace_mobile_app/blob/main/app/screens/ViewImageScreen.js#L26)
+- Contact Form: [Click here](https://github.com/Lambertyubin/marketplace_mobile_app/blob/main/app/components/ContactSellerForm.js#L17)
 - Shopping Cart component: [Click here]()
 - The application fetches data from a backend API that I built as part of the project.
-- Requests to API for authentication: [Click here]()
-- Requests to API for product content: [Click here]()
-
-- Integration tests using React Testing Library
+- API to backend: [Click here](https://github.com/Lambertyubin/marketplace_mobile_app/blob/main/app/api/client.js#L18)
 
 ### Backend
 
@@ -41,7 +38,7 @@ Testing is an essential part of production applications. Testing Library is the 
 
 ## During my extra time, I intend to improve the following:
 
-- Complete the frontend to have a fully-responsive UI based on some cool Figma designs
+- Complete the frontend to have a fully-operational marketplace with content.
 - Set up continuous integration to run the tests
 - Add end-to-end tests with Cypress
 
